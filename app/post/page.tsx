@@ -5,9 +5,9 @@ import { EditorTiptap } from "@/components/post/editor-tiptap";
 // const CustomEditor = dynamic(() => import('@/components/post/custom-editor'), { ssr: false });
 
 const PostPage = () => {
-    return (
+    return (<>
         <EditorTiptap/>
-    );
+    </>);
 }
 
 export default PostPage;
